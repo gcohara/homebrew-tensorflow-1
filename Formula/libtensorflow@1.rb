@@ -13,8 +13,6 @@ class LibtensorflowAT1 < Formula
     sha256 cellar: :any, mojave:   "aefd6a0dbaae05e710a8372fa6ca3e6d731b9ee455ca99f898141d7f627303eb"
   end
 
-  keg_only :versioned_formula
-
   depends_on "bazel" => :build
   depends_on "python@3.9" => :build
 
